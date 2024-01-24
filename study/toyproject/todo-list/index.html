@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-box">
+        <header class="text-center my-4">
+            <h1 class="mb-4">To Do List</h1>
+            <form class="search">
+              <input
+                class="form-control m-auto"
+                type="text"
+                name="search"
+                placeholder="메모를 검색해보세요"
+              />
+            </form>
+          </header>
+          <ul class="list-group mx-auto memos">
+            <!-- <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <span>아침 커피약속</span> 
+              <div>
+                <i class="far fa-check-circle check"></i>
+                <i class="far fa-trash-alt delete"></i>
+              </div>
+              
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <span>점심 식사모임</span>
+              <div>
+                <i class="far fa-check-circle check"></i>
+                <i class="far fa-trash-alt delete"></i>
+              </div>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <span>영국 미팅</span>
+              <div>
+                <i class="far fa-check-circle check"></i>
+                <i class="far fa-trash-alt delete"></i>
+              </div>
+            </li> -->
+            <!-- 추가될 메모 내용 자리 -->
+          </ul>
+          <form class="add text-center my-4">
+            <label class="">메모 추가하기</label>
+            <div class="d-flex save">
+              <input class="form-control m-auto" type="text" name="add" />
+              <button id="memoSave">메모 저장</button>
+            </div>
+            <span class="hidden text-danger" id="alertmsg"
+              >메모 내용을 적어주세요</span
+            >
+          </form>
+      </div>
+      <!-- submit 전송 -->
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
+
+</html>

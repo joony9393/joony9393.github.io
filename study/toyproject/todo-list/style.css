@@ -1,0 +1,38 @@
+
+.container {
+    max-width: 800px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    width: 100%;
+    border: none;
+    background: #ededed;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.filtered {
+    display: none !important;
+}
+
+.container-box{
+    box-shadow: 0.3em 0.3em 1em rgb(0 0 0 / 60%);
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin-top: 100px;
+}
+  
+.save{
+    gap: 10px;
+}
+
+#memoSave{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff
+}
